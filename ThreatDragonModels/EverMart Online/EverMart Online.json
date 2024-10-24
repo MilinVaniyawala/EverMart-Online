@@ -500,7 +500,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -512,14 +512,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Login Credentials",
-              "description": "",
+              "description": "Login Credentials refer to the sensitive information used by users (buyers, sellers, and employees) to authenticate themselves when accessing the EverMart Online platform. This includes usernames and passwords, as well as any additional authentication factors (e.g., tokens or biometric data) used for secure access. Proper handling of these credentials is vital to prevent unauthorized access and ensure user security",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for transmitting Login Credentials typically utilizes secure HTTP(S) to encrypt data during transmission. This ensures that the credentials are protected from interception during login attempts. Secure authentication mechanisms such as OAuth or OpenID Connect may also be used to enhance security",
               "threats": []
             },
             "labels": [
@@ -542,7 +542,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -554,14 +554,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Update Inventory",
-              "description": "",
+              "description": "Update Inventory refers to the process through which sellers and administrators can modify the inventory records on the EverMart Online platform. This includes actions such as adding new products, changing stock quantities, updating product descriptions, and removing discontinued items. Proper management of inventory updates is crucial for ensuring accurate product availability, optimizing sales, and maintaining customer satisfaction",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for updating inventory typically involves secure HTTP(S) for the transmission of requests and responses related to inventory changes. API endpoints are often utilized to ensure that updates are processed securely and efficiently while maintaining data integrity",
               "threats": []
             },
             "labels": [
@@ -584,7 +584,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -596,14 +596,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Transaction Details",
-              "description": "",
+              "description": "All relevant information regarding purchases made on the EverMart Online platform. This includes data such as transaction IDs, product details, quantities purchased, total transaction amounts, payment methods, timestamps, and customer information. This data is critical for processing orders, managing customer relations, and maintaining financial records",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for transmitting Transaction Details typically involves secure HTTP(S) to ensure that sensitive information is encrypted during transmission. API calls may be used for backend communication between the transaction processing system and databases, maintaining data integrity and security",
               "threats": []
             },
             "labels": [
@@ -983,7 +983,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -994,19 +994,19 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
+              "name": "Inventory Updates",
+              "description": "It is the process of modifying stock levels, adding new products, and removing discontinued items in the EverMart Online platform's inventory database. This includes actions taken by sellers and administrators to ensure the accuracy and availability of products for customers. Effective inventory management is essential for optimizing sales, reducing stockouts, and maintaining customer satisfaction",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for Inventory Updates typically involves secure HTTP(S) for the transmission of update requests and responses. API endpoints may be utilized to facilitate communication between the user interface and the backend inventory system, ensuring that all updates are processed securely.",
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Inventory Updates"
             ],
             "id": "21d42ad6-b995-4410-acc8-436323cd6c26",
             "source": {
