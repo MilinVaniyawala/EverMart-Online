@@ -132,11 +132,11 @@
             "data": {
               "type": "tm.Actor",
               "name": "Buyers",
-              "description": "",
+              "description": "Buyers are external users of the EverMart platform who browse products, make purchases, and manage orders through the external website. They authenticate themselves to access their accounts and perform transactions, including viewing order history and tracking delivery statuses.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
+              "providesAuthentication": true,
               "threats": []
             }
           },
@@ -248,11 +248,11 @@
             "data": {
               "type": "tm.Actor",
               "name": "Sellers",
-              "description": "",
+              "description": "Sellers are internal or third-party users of the EverMart platform who manage and update product listings, stock levels, pricing, and other details through the internal website. Sellers also interact with the inventory management system and are responsible for keeping product information accurate for customers",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
+              "providesAuthentication": true,
               "threats": []
             }
           },
@@ -364,11 +364,11 @@
             "data": {
               "type": "tm.Actor",
               "name": "Employees",
-              "description": "",
+              "description": "EverMart employees are internal users who manage various operational and administrative tasks within the platform. They may have access to sensitive data, such as customer information, inventory details, transaction logs, and reports. Employees are responsible for monitoring system performance, managing user accounts, and handling customer support, depending on their role",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "providesAuthentication": false,
+              "providesAuthentication": true,
               "threats": []
             }
           },
@@ -480,14 +480,14 @@
             "data": {
               "type": "tm.Process",
               "name": "EverMart Online",
-              "description": "",
+              "description": "EverMart Online is the e-commerce platform that facilitates the buying and selling of goods and services. It serves as the central hub for buyers to browse products, make purchases, and manage their orders while providing sellers with the tools to manage inventory and sales. The platform includes both an external website for customers and an internal website for sellers and employees.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
+              "handlesCardPayment": true,
+              "handlesGoodsOrServices": true,
+              "isWebApplication": true,
+              "privilegeLevel": "High",
               "threats": []
             }
           },
