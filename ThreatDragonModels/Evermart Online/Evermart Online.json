@@ -7,7 +7,14 @@
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Jayaprakash Visvanathan"
+      },
+      {
+        "name": "Balaji Goud"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
