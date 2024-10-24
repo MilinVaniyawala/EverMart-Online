@@ -1039,7 +1039,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1051,14 +1051,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Admin Access / Data Management",
-              "description": "",
+              "description": "Admin Access / Data Management refers to the functionalities that allow authorized administrators to manage data across the EverMart Online platform. This includes creating, updating, deleting, and viewing records in the databases, managing user accounts, overseeing inventory, and generating reports. Proper management is crucial for maintaining data integrity, security, and compliance with data protection regulations",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for Admin Access / Data Management typically involves secure web-based access over HTTPS. Administrators use a secure interface to authenticate and perform data management tasks, often utilizing API calls to interact with the backend systems",
               "threats": []
             },
             "labels": [
@@ -1081,7 +1081,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -1093,14 +1093,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Admin Access / Data Management",
-              "description": "",
+              "description": "Admin Access / Data Management refers to the functionalities that allow authorized administrators to manage data across the EverMart Online platform. This includes creating, updating, deleting, and viewing records in the databases, managing user accounts, overseeing inventory, and generating reports. Proper management is crucial for maintaining data integrity, security, and compliance with data protection regulations",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for Admin Access / Data Management typically involves secure web-based access over HTTPS. Administrators use a secure interface to authenticate and perform data management tasks, often utilizing API calls to interact with the backend systems",
               "threats": []
             },
             "labels": [
