@@ -1,0 +1,27 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "EverMart Online",
+    "owner": "Milin Vaniyawala",
+    "description": "Data Assets\n● Database of inventory\n● Database of customer information (cloud hosted)\n● Database of transactions (cloud hosted)\nServices\n● External website for users to shop (requires authentication)\n● Internal website for sellers to update the shop (requires authentication)\nUsers\n● Sellers\n● Buyers\n● EverMart employees",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": [],
+        "description": ""
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Prof. Ross Webster",
+    "threatTop": 0
+  }
+}
