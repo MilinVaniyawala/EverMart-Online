@@ -679,48 +679,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Admin Access / Data Management",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Admin Access / Data Management"
-            ],
-            "id": "2f2a2faa-c255-4951-aed3-bf8f0226ffda",
-            "source": {
-              "cell": "12e621fb-c19d-4cb0-bbd6-8016323955f0"
-            },
-            "target": {
-              "cell": "4124ae06-8a31-4c34-a611-ac556372ca92"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Inventory Updates",
               "description": "",
               "outOfScope": false,
@@ -994,8 +952,12 @@
                 "y": 380
               },
               {
-                "x": 770,
-                "y": 540
+                "x": 730,
+                "y": 430
+              },
+              {
+                "x": 820,
+                "y": 550
               },
               {
                 "x": 770,
@@ -1004,6 +966,153 @@
               {
                 "x": 750,
                 "y": 660
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "21d42ad6-b995-4410-acc8-436323cd6c26",
+            "source": {
+              "cell": "7c2c1724-bf7a-48a6-b9e6-b5c40a5cea53"
+            },
+            "target": {
+              "cell": "4124ae06-8a31-4c34-a611-ac556372ca92"
+            },
+            "vertices": [
+              {
+                "x": 670,
+                "y": 430
+              },
+              {
+                "x": 760,
+                "y": 610
+              },
+              {
+                "x": 800,
+                "y": 660
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin Access / Data Management",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin Access / Data Management"
+            ],
+            "id": "2f2a2faa-c255-4951-aed3-bf8f0226ffda",
+            "source": {
+              "cell": "12e621fb-c19d-4cb0-bbd6-8016323955f0"
+            },
+            "target": {
+              "cell": "4124ae06-8a31-4c34-a611-ac556372ca92"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin Access / Data Management",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin Access / Data Management"
+            ],
+            "id": "d3244bb5-6393-4169-ab14-84d46e7becd8",
+            "source": {
+              "cell": "12e621fb-c19d-4cb0-bbd6-8016323955f0"
+            },
+            "target": {
+              "cell": "3f231f84-4174-4ba5-80e5-ade6db428824",
+              "port": "08f9ddc2-976a-4f23-a847-e851494b43f9"
+            },
+            "vertices": [
+              {
+                "x": 480,
+                "y": 300
               }
             ]
           },
@@ -1021,8 +1130,8 @@
                 "text": "Authentication"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1115,15 +1224,63 @@
             "data": {
               "type": "tm.Process",
               "name": "Authentication",
-              "description": "",
+              "description": "Handles user authentication by validating login credentials (username and password) for buyers, sellers, and employees",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
+              "isWebApplication": true,
+              "privilegeLevel": "High",
+              "threats": [
+                {
+                  "id": "85c59dc5-4bb8-44c5-80ec-59d2ff12852f",
+                  "title": "Spoofing",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": "An attacker could try to impersonate a legitimate user to gain unauthorized access",
+                  "mitigation": "Use multi-factor authentication (MFA) to prevent spoofing",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "5708b939-54e1-415a-b45e-12694471e3b0",
+                  "title": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Someone might attempt to alter login requests in transit (e.g., man-in-the-middle attack)",
+                  "mitigation": "Encrypt communications using TLS (Transport Layer Security)",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                },
+                {
+                  "id": "da695b6e-5108-44c5-817e-30b507a79466",
+                  "title": "Elevation of Privilege",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A regular user might attempt to gain admin privileges by exploiting a vulnerability",
+                  "mitigation": "Implement role-based access control (RBAC) and regularly audit permissions",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 2
+              }
             }
           },
           {
@@ -1234,14 +1391,14 @@
             "data": {
               "type": "tm.Process",
               "name": "Inventory Management",
-              "description": "",
+              "description": "The Inventory Management Process allows sellers and EverMart employees to update product details such as stock levels, pricing, descriptions, and product availability. This process ensures that the inventory database remains accurate and up-to-date for customer purchases",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
+              "handlesGoodsOrServices": true,
+              "isWebApplication": true,
+              "privilegeLevel": "Medium",
               "threats": []
             }
           },
@@ -1259,8 +1416,8 @@
                 "text": "Transaction"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1353,15 +1510,63 @@
             "data": {
               "type": "tm.Process",
               "name": "Transaction",
-              "description": "",
+              "description": "The Transaction Process handles the flow of customer purchases, including the validation of payment details, processing card payments, updating order statuses, and confirming the exchange of goods or services. This process interacts with the Transaction Database and payment gateways to complete purchases",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
+              "hasOpenThreats": true,
+              "handlesCardPayment": true,
+              "handlesGoodsOrServices": true,
+              "isWebApplication": true,
+              "privilegeLevel": "High",
+              "threats": [
+                {
+                  "id": "df1f20c3-d296-4a19-af3c-3c6d5212d4c9",
+                  "title": "Repudiation",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Repudiation",
+                  "description": "A buyer might deny having made a purchase",
+                  "mitigation": "Use digital signatures or log transaction details securely to maintain non-repudiation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "edd67995-1bd7-4c2f-a38b-5389daf38a68",
+                  "title": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker could try to alter the transaction details (e.g., changing the amount or recipient)",
+                  "mitigation": "Implement transaction validation checks before processing",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                },
+                {
+                  "id": "736e1c70-d53f-4352-97ce-d7e1533e2b3a",
+                  "title": "Information Disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "A malicious third party might intercept transaction data",
+                  "mitigation": "Secure transactions using encryption during transmission (TLS)",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 3,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -1475,12 +1680,12 @@
             "data": {
               "type": "tm.Store",
               "name": "Inventory Database",
-              "description": "",
+              "description": "The Inventory Database stores data related to the products available for sale on EverMart, including product IDs, names, descriptions, quantities, prices, and stock levels. This database is accessed by sellers to update product details and by the system to check availability when processing customer orders.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isALog": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
@@ -1501,11 +1706,13 @@
                 "text": "Customer Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1598,16 +1805,62 @@
             "data": {
               "type": "tm.Store",
               "name": "Customer Database",
-              "description": "",
+              "description": "The Customer Database stores sensitive customer information, including names, addresses, email addresses, hashed passwords, and payment information. It is hosted on a cloud service and accessed by various processes for authentication and transaction handling",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
               "isSigned": false,
-              "storesCredentials": false,
+              "storesCredentials": true,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "6f557637-fdb6-4c72-82ee-9245daf37b5f",
+                  "title": "Information Disclosure",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized parties could access sensitive customer data (e.g., passwords, payment information)",
+                  "mitigation": "Encrypt sensitive fields like passwords (using hashing) and payment details",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "fa8486da-aa9f-492f-b528-91c28c48f9d9",
+                  "title": "Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "A malicious insider could modify customer data",
+                  "mitigation": "Implement strict access controls, and log all access to the database",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "e0c6dd71-3eb7-4095-8611-e5a27cc711eb",
+                  "title": "Denial of Service",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "An attacker could flood the database with requests, causing it to crash or become unavailable",
+                  "mitigation": "Implement rate-limiting, and have database failover mechanisms in place",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 1
+              }
             }
           },
           {
@@ -1721,13 +1974,13 @@
             "data": {
               "type": "tm.Store",
               "name": "Transaction Database",
-              "description": "",
+              "description": "The Transaction Database stores detailed records of customer purchases, including items bought, transaction amounts, payment information, timestamps, and order status. It is hosted on a cloud platform and accessed by processes that manage order processing, payment verification, and customer notifications.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
+              "isEncrypted": true,
+              "isSigned": true,
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
@@ -1739,6 +1992,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Prof. Ross Webster",
-    "threatTop": 0
+    "threatTop": 9
   }
 }
