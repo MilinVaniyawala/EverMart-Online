@@ -626,7 +626,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -638,14 +638,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Login Info",
-              "description": "",
+              "description": "It refers to the credentials and session information used by sellers to authenticate and access the EverMart Online platform. This includes usernames, passwords, session tokens, and any other relevant data necessary for user authentication and session management. Secure handling of this information is critical to prevent unauthorized access and protect user accounts",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for transmitting Login Info typically involves secure authentication protocols such as HTTPS for encrypting data in transit, along with mechanisms like OAuth or OpenID Connect for verifying user identities securely",
               "threats": []
             },
             "labels": [
@@ -815,7 +815,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -827,14 +827,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Purchase Data",
-              "description": "",
+              "description": "So when customers complete transactions on the EverMart Online platform. This includes data such as product IDs, quantities purchased, transaction amounts, payment methods, customer information (e.g., name, address), and timestamps. This data is essential for processing orders, managing customer relationships, and analyzing sales trends",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for transmitting Purchase Data typically involves secure HTTP(S) to protect sensitive information during the transaction process. This can also include secure APIs for backend communication between the e-commerce platform and payment gateways",
               "threats": []
             },
             "labels": [
@@ -857,7 +857,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -869,14 +869,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Login Info",
-              "description": "",
+              "description": "It refers to the credentials and session information used by buyers to authenticate and access the EverMart Online platform. This includes usernames, passwords, session tokens, and any other relevant data necessary for user authentication and session management. Secure handling of this information is critical to prevent unauthorized access and protect user accounts",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for transmitting Login Info typically involves secure authentication protocols such as HTTPS for encrypting data in transit, along with mechanisms like OAuth or OpenID Connect for verifying user identities securely",
               "threats": []
             },
             "labels": [
@@ -915,7 +915,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -927,14 +927,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Login Info",
-              "description": "",
+              "description": "It refers to the credentials and session information used by employees to authenticate and access the EverMart Online platform. This includes usernames, passwords, session tokens, and any other relevant data necessary for user authentication and session management. Secure handling of this information is critical to prevent unauthorized access and protect user accounts",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for transmitting Login Info typically involves secure authentication protocols such as HTTPS for encrypting data in transit, along with mechanisms like OAuth or OpenID Connect for verifying user identities securely",
               "threats": []
             },
             "labels": [
