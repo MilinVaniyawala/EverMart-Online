@@ -161,6 +161,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -244,7 +245,6 @@
               ]
             },
             "id": "7c2c1724-bf7a-48a6-b9e6-b5c40a5cea53",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Sellers",
@@ -277,6 +277,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -360,7 +361,6 @@
               ]
             },
             "id": "12e621fb-c19d-4cb0-bbd6-8016323955f0",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Employees",
@@ -393,6 +393,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -476,7 +477,6 @@
               ]
             },
             "id": "8bae6f11-8970-4aba-a0ae-c2edf0d3789f",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "EverMart Online",
@@ -668,7 +668,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -680,14 +680,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Inventory Updates",
-              "description": "",
+              "description": "Inventory Updates encompass all modifications made to the inventory records on the EverMart Online platform. This includes adding new products, updating stock levels, modifying product details (like prices and descriptions), and removing discontinued items. These updates are crucial for maintaining accurate inventory data and ensuring that customers can view the most current product availability",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for transmitting Inventory Updates may include secure HTTP(S) for web-based updates and API calls for backend systems, ensuring that data is securely sent between the user interface and the inventory management system",
               "threats": []
             },
             "labels": [
@@ -699,7 +699,8 @@
             },
             "target": {
               "cell": "7c2c1724-bf7a-48a6-b9e6-b5c40a5cea53"
-            }
+            },
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -710,7 +711,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -722,14 +723,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Access Management",
-              "description": "",
+              "description": "It refers to the processes and technologies that ensure only authorized users can access the EverMart Online platform and its resources. This includes user authentication, role-based access control, and managing permissions for different user roles (buyers, sellers, employees). Effective access management is crucial for safeguarding sensitive data and maintaining the integrity of the system.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "Access Management typically involves secure authentication protocols such as OAuth, OpenID Connect, or SAML for validating user identities. Communication is conducted over secure HTTP(S) to protect credentials and session data",
               "threats": []
             },
             "labels": [
@@ -746,6 +747,10 @@
             },
             "vertices": [
               {
+                "x": 840,
+                "y": 190
+              },
+              {
                 "x": 900,
                 "y": 230
               }
@@ -760,7 +765,7 @@
                   "name": "block"
                 },
                 "sourceMarker": {
-                  "name": ""
+                  "name": "block"
                 },
                 "strokeDasharray": null
               }
@@ -772,14 +777,14 @@
             "data": {
               "type": "tm.Flow",
               "name": "Order Info",
-              "description": "",
+              "description": "Order Info includes all details related to customer orders placed through the EverMart Online platform. This encompasses product selections, quantities, pricing, shipping information, payment methods, and order status. This data is critical for processing transactions and managing customer orders efficiently.",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "The protocol for transmitting Order Info may include HTTP(S) for web interactions and secure API calls for backend communications. This ensures that data is sent securely between the buyer's browser and the server",
               "threats": []
             },
             "labels": [
@@ -1137,6 +1142,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1220,7 +1226,6 @@
               ]
             },
             "id": "80e80044-686d-4f5d-be02-f7ff32f0fbc7",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Authentication",
@@ -1304,6 +1309,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1387,7 +1393,6 @@
               ]
             },
             "id": "4124ae06-8a31-4c34-a611-ac556372ca92",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Inventory Management",
@@ -1423,6 +1428,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1506,7 +1512,6 @@
               ]
             },
             "id": "3f231f84-4174-4ba5-80e5-ade6db428824",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Transaction",
@@ -1593,6 +1598,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1676,7 +1682,6 @@
               ]
             },
             "id": "511a58a2-efec-4610-8420-d82b83d085de",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Inventory Database",
@@ -1718,6 +1723,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1801,7 +1807,6 @@
               ]
             },
             "id": "686d756b-c1e6-4bd0-a2e8-2312936af1bd",
-            "zIndex": 15,
             "data": {
               "type": "tm.Store",
               "name": "Customer Database",
@@ -1887,6 +1892,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1970,7 +1976,6 @@
               ]
             },
             "id": "89480c6f-2d7d-426c-9b12-410dd23b954c",
-            "zIndex": 16,
             "data": {
               "type": "tm.Store",
               "name": "Transaction Database",
