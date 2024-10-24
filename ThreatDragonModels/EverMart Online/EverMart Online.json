@@ -7,7 +7,14 @@
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Jayaprakash Visvanathan"
+      },
+      {
+        "name": "Balaji Goud"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
@@ -17,7 +24,7 @@
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.2.0",
         "cells": [],
-        "description": ""
+        "description": "DFD Level 1"
       }
     ],
     "diagramTop": 1,
